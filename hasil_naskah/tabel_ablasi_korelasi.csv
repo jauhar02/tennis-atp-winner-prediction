@@ -1,0 +1,18 @@
+Group,Feature,Spearman with elo_diff,Spearman with elo_surface_diff
+Elo (general and surface),elo_diff,1.0,0.871
+Elo (general and surface),elo_surface_diff,0.871,1.0
+Ranking and points,rank_diff_log,0.836,0.728
+Ranking and points,points_diff_log,0.827,0.72
+"Age, height, handedness",age_diff,0.049,0.103
+"Age, height, handedness",height_diff,0.144,0.119
+Recent form and surface win rate,form_diff,0.7,0.605
+Recent form and surface win rate,surface_wr_diff,0.745,0.883
+Head-to-head,h2h_diff,0.394,0.375
+Fatigue (14-day load),fatigue_diff,0.096,0.121
+Experience (match count),experience_diff,0.578,0.577
+"Age, height, handedness",lefty_diff,-0.053,-0.047
+Surface and match context,best_of_5,-0.011,-0.015
+Surface and match context,is_slam,-0.009,-0.011
+Surface and match context,surf_hard,-0.001,-0.001
+Surface and match context,surf_clay,-0.002,0.002
+Surface and match context,surf_grass,0.004,-0.002

@@ -1,0 +1,10 @@
+Model,Metode,Δ log loss vs A,CI95 bawah,CI95 atas
+Random Forest,"B. Latih 80%, probabilitas asli",0.0002,-0.0004,0.0008
+Random Forest,C. Latih 80% + Platt kronologis,0.0005,-0.0002,0.0011
+Random Forest,D. Latih 80% + isotonik kronologis,0.0046,0.0012,0.0084
+XGBoost,"B. Latih 80%, probabilitas asli",0.0,-0.0004,0.0004
+XGBoost,C. Latih 80% + Platt kronologis,-0.0139,-0.0213,-0.0075
+XGBoost,D. Latih 80% + isotonik kronologis,-0.008,-0.0175,0.0008
+SVM,"B. Latih 80%, probabilitas asli",0.0007,0.0003,0.001
+SVM,C. Latih 80% + Platt kronologis,-0.0002,-0.001,0.0006
+SVM,D. Latih 80% + isotonik kronologis,0.0051,0.0018,0.0088

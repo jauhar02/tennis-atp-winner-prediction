@@ -1,0 +1,4 @@
+Model,Bins used,Min n,Max n,Bins with n < 100,Share of matches in bins 0.2-0.8 (%),Bins whose CI misses the diagonal
+Random Forest,10,82,1587,2,86.8,1
+XGBoost,10,2,2385,2,91.9,5
+SVM,10,94,1356,1,82.7,5

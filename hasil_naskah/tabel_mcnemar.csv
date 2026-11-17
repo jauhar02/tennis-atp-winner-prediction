@@ -1,0 +1,4 @@
+Pasangan,"A benar, B salah","A salah, B benar",Statistik,p-value,p Holm,"Signifikan (0.05, Holm)"
+Random Forest vs XGBoost,95,87,0.2692,0.6038,0.6038,False
+Random Forest vs SVM,238,294,5.6861,0.0171,0.0342,True
+XGBoost vs SVM,221,285,7.8439,0.0051,0.0153,True

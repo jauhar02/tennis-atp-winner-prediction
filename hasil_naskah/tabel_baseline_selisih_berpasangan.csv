@@ -1,0 +1,19 @@
+Model,Baseline,Metric,Model - baseline,95% CI
+Random Forest,Elo (expected score),Log loss,-0.0182,-0.0230 to -0.0129
+Random Forest,Elo (expected score),Brier,-0.0067,-0.0085 to -0.0047
+Random Forest,Elo (recalibrated),Log loss,-0.0101,-0.0135 to -0.0063
+Random Forest,Elo (recalibrated),Brier,-0.0041,-0.0054 to -0.0025
+Random Forest,Ranking (recalibrated),Log loss,-0.0185,-0.0232 to -0.0135
+Random Forest,Ranking (recalibrated),Brier,-0.0077,-0.0098 to -0.0055
+XGBoost,Elo (expected score),Log loss,-0.003,-0.0120 to 0.0069
+XGBoost,Elo (expected score),Brier,-0.0002,-0.0037 to 0.0038
+XGBoost,Elo (recalibrated),Log loss,0.0051,-0.0021 to 0.0135
+XGBoost,Elo (recalibrated),Brier,0.0024,-0.0007 to 0.0059
+XGBoost,Ranking (recalibrated),Log loss,-0.0033,-0.0112 to 0.0053
+XGBoost,Ranking (recalibrated),Brier,-0.0013,-0.0047 to 0.0023
+SVM,Elo (expected score),Log loss,-0.0192,-0.0239 to -0.0143
+SVM,Elo (expected score),Brier,-0.0071,-0.0089 to -0.0052
+SVM,Elo (recalibrated),Log loss,-0.0111,-0.0148 to -0.0072
+SVM,Elo (recalibrated),Brier,-0.0045,-0.0061 to -0.0028
+SVM,Ranking (recalibrated),Log loss,-0.0195,-0.0251 to -0.0132
+SVM,Ranking (recalibrated),Brier,-0.0082,-0.0106 to -0.0055

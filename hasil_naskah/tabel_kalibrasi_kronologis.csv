@@ -1,0 +1,13 @@
+Model,Metode,Akurasi,ROC-AUC,Log loss,Brier,ECE
+Random Forest,"A. Sel B: latih penuh, probabilitas asli",0.648,0.7136,0.6166,0.2146,0.0109
+Random Forest,"B. Latih 80%, probabilitas asli",0.6476,0.7135,0.6168,0.2147,0.0145
+Random Forest,C. Latih 80% + Platt kronologis,0.6473,0.7133,0.6171,0.2149,0.0154
+Random Forest,D. Latih 80% + isotonik kronologis,0.649,0.7125,0.6212,0.2151,0.0108
+XGBoost,"A. Sel B: latih penuh, probabilitas asli",0.6471,0.6997,0.6318,0.2211,0.0378
+XGBoost,"B. Latih 80%, probabilitas asli",0.6501,0.6991,0.6319,0.2211,0.0396
+XGBoost,C. Latih 80% + Platt kronologis,0.6486,0.7134,0.618,0.2151,0.0199
+XGBoost,D. Latih 80% + isotonik kronologis,0.6473,0.7123,0.6238,0.2152,0.0119
+SVM,"A. Sel B: latih penuh, probabilitas asli",0.6547,0.7176,0.6157,0.2142,0.0261
+SVM,"B. Latih 80%, probabilitas asli",0.654,0.7172,0.6163,0.2144,0.0282
+SVM,C. Latih 80% + Platt kronologis,0.6538,0.7168,0.6154,0.214,0.0176
+SVM,D. Latih 80% + isotonik kronologis,0.6548,0.715,0.6207,0.2145,0.0192

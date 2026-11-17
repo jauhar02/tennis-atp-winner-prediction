@@ -1,0 +1,7 @@
+Predictor,Accuracy,ROC-AUC (yearly mean),Log loss,Brier,ECE (10 bins)
+Elo (expected score),0.6407,0.7024,0.6348,0.2213,0.0522
+Elo (recalibrated),0.6406,0.7024,0.6267,0.2187,0.0203
+Ranking (recalibrated),0.6356,0.6912,0.6351,0.2224,0.0225
+Random Forest,0.648,0.7137,0.6166,0.2146,0.0109
+XGBoost,0.6471,0.7139,0.6318,0.2211,0.0378
+SVM,0.6547,0.7178,0.6157,0.2142,0.0261

@@ -1,0 +1,25 @@
+Tahun uji,Model,Pencarian,CV AUC,Sama dgn Sel B,Parameter,AUC,Akurasi,LogLoss
+2023,Random Forest,seed 1 (60),0.72443,False,"{'clf__max_depth': 6, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 40, 'clf__n_estimators': 200}",0.70238,0.63987,0.62597
+2023,Random Forest,seed 2 (60),0.72443,False,"{'clf__max_depth': 6, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 40, 'clf__n_estimators': 200}",0.70238,0.63987,0.62597
+2023,Random Forest,seed 3 (60),0.7244,False,"{'clf__max_depth': 6, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 20, 'clf__n_estimators': 200}",0.70251,0.63861,0.62587
+2023,Random Forest,seed 4 (60),0.7244,False,"{'clf__max_depth': 6, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 20, 'clf__n_estimators': 200}",0.70251,0.63861,0.62587
+2023,Random Forest,seed 5 (60),0.72443,False,"{'clf__max_depth': 6, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 40, 'clf__n_estimators': 200}",0.70238,0.63987,0.62597
+2023,Random Forest,seluruh ruang (120),0.72443,False,"{'clf__max_depth': 6, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 40, 'clf__n_estimators': 200}",0.70238,0.63987,0.62597
+2023,XGBoost,seed 1 (60),0.72532,False,"{'clf__colsample_bytree': 0.5, 'clf__learning_rate': 0.01, 'clf__max_depth': 3, 'clf__min_child_weight': 5, 'clf__n_estimators': 400, 'clf__subsample': 0.3}",0.70214,0.63693,0.62699
+2023,XGBoost,seed 2 (60),0.72532,False,"{'clf__colsample_bytree': 0.9, 'clf__learning_rate': 0.05, 'clf__max_depth': 2, 'clf__min_child_weight': 10, 'clf__n_estimators': 100, 'clf__subsample': 0.7}",0.70086,0.64196,0.62786
+2023,XGBoost,seed 3 (60),0.72561,False,"{'clf__colsample_bytree': 0.7, 'clf__learning_rate': 0.005, 'clf__max_depth': 2, 'clf__min_child_weight': 5, 'clf__n_estimators': 800, 'clf__subsample': 0.3}",0.70096,0.63819,0.62777
+2023,XGBoost,seed 4 (60),0.72534,False,"{'clf__colsample_bytree': 0.7, 'clf__learning_rate': 0.005, 'clf__max_depth': 2, 'clf__min_child_weight': 10, 'clf__n_estimators': 800, 'clf__subsample': 0.3}",0.701,0.63819,0.62774
+2023,XGBoost,anggaran 120,0.72532,False,"{'clf__colsample_bytree': 0.5, 'clf__learning_rate': 0.01, 'clf__max_depth': 3, 'clf__min_child_weight': 5, 'clf__n_estimators': 400, 'clf__subsample': 0.3}",0.70214,0.63693,0.62699
+2023,XGBoost,anggaran 240,0.72561,False,"{'clf__colsample_bytree': 0.7, 'clf__learning_rate': 0.005, 'clf__max_depth': 2, 'clf__min_child_weight': 5, 'clf__n_estimators': 800, 'clf__subsample': 0.3}",0.70096,0.63819,0.62777
+2026,Random Forest,seed 1 (60),0.71399,False,"{'clf__max_depth': 5, 'clf__max_features': 0.3, 'clf__min_samples_leaf': 80, 'clf__n_estimators': 400}",0.72838,0.66554,0.60716
+2026,Random Forest,seed 2 (60),0.71399,False,"{'clf__max_depth': 5, 'clf__max_features': 0.3, 'clf__min_samples_leaf': 80, 'clf__n_estimators': 400}",0.72838,0.66554,0.60716
+2026,Random Forest,seed 3 (60),0.71392,False,"{'clf__max_depth': 5, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 80, 'clf__n_estimators': 400}",0.72904,0.66216,0.60691
+2026,Random Forest,seed 4 (60),0.71399,False,"{'clf__max_depth': 5, 'clf__max_features': 0.3, 'clf__min_samples_leaf': 80, 'clf__n_estimators': 400}",0.72838,0.66554,0.60716
+2026,Random Forest,seed 5 (60),0.71399,False,"{'clf__max_depth': 5, 'clf__max_features': 0.3, 'clf__min_samples_leaf': 80, 'clf__n_estimators': 400}",0.72838,0.66554,0.60716
+2026,Random Forest,seluruh ruang (120),0.71399,False,"{'clf__max_depth': 5, 'clf__max_features': 0.3, 'clf__min_samples_leaf': 80, 'clf__n_estimators': 400}",0.72838,0.66554,0.60716
+2026,XGBoost,seed 1 (60),0.71494,False,"{'clf__colsample_bytree': 0.3, 'clf__learning_rate': 0.0025, 'clf__max_depth': 4, 'clf__min_child_weight': 10, 'clf__n_estimators': 200, 'clf__subsample': 0.3}",0.72909,0.66047,0.64773
+2026,XGBoost,seed 2 (60),0.71506,False,"{'clf__colsample_bytree': 0.3, 'clf__learning_rate': 0.005, 'clf__max_depth': 2, 'clf__min_child_weight': 10, 'clf__n_estimators': 800, 'clf__subsample': 0.3}",0.72872,0.66554,0.60722
+2026,XGBoost,seed 3 (60),0.71503,False,"{'clf__colsample_bytree': 0.3, 'clf__learning_rate': 0.0025, 'clf__max_depth': 4, 'clf__min_child_weight': 1, 'clf__n_estimators': 200, 'clf__subsample': 0.7}",0.72764,0.65963,0.64806
+2026,XGBoost,seed 4 (60),0.71507,False,"{'clf__colsample_bytree': 0.3, 'clf__learning_rate': 0.0025, 'clf__max_depth': 3, 'clf__min_child_weight': 10, 'clf__n_estimators': 800, 'clf__subsample': 0.5}",0.72855,0.65878,0.61214
+2026,XGBoost,anggaran 120,0.71506,False,"{'clf__colsample_bytree': 0.3, 'clf__learning_rate': 0.005, 'clf__max_depth': 2, 'clf__min_child_weight': 10, 'clf__n_estimators': 800, 'clf__subsample': 0.3}",0.72872,0.66554,0.60722
+2026,XGBoost,anggaran 240,0.71507,False,"{'clf__colsample_bytree': 0.3, 'clf__learning_rate': 0.0025, 'clf__max_depth': 3, 'clf__min_child_weight': 10, 'clf__n_estimators': 800, 'clf__subsample': 0.5}",0.72855,0.65878,0.61214

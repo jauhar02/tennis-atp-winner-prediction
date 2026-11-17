@@ -1,0 +1,4 @@
+,n,Random Forest,XGBoost,SVM
+Semua laga uji,8447,0.648,0.6471,0.6547
+Tanpa laga ambigu,8170,0.6488,0.6483,0.6563
+Hanya laga ambigu,277,0.6245,0.6101,0.6065

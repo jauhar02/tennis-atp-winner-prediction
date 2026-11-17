@@ -1,0 +1,4 @@
+Model,Ukuran ruang,Konfigurasi dievaluasi,% ruang dicoba,Fit CV per lipatan luar,Fit CV total,Fit akhir (data latih penuh),Waktu rata-rata per lipatan (s),Waktu total (menit)
+Random Forest,120,60,50.0,180,720,4,533.8,35.6
+XGBoost,4800,60,1.25,180,720,4,106.9,7.1
+SVM,35,35,100.0,105,420,4,862.1,57.5

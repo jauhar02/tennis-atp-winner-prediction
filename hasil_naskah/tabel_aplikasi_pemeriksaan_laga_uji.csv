@@ -1,0 +1,4 @@
+Status,Matches,Share (%),Accuracy Random Forest (%),Accuracy XGBoost (%),Accuracy SVM (%)
+Supported,7906,93.6,64.12,63.99,64.69
+Caution,527,6.24,74.95,75.33,77.04
+Refused,14,0.17,71.43,71.43,71.43

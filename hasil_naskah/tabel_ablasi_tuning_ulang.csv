@@ -1,0 +1,9 @@
+Set,Features,Model,Accuracy (retuned),Acc 95% CI,AUC (retuned),AUC 95% CI,Log loss (retuned),"Accuracy (full-set parameters, Sel AD)","AUC (full-set parameters, Sel AD)"
+A1,1,Random Forest,0.6403,63.1 to 65.0,0.7024,0.6901 to 0.7142,0.6278,0.6392,0.6996
+A1,1,XGBoost,0.6403,63.1 to 65.0,0.702,0.6896 to 0.7139,0.6366,0.6416,0.7018
+A2,2,Random Forest,0.6401,62.9 to 64.9,0.7036,0.6906 to 0.7155,0.625,0.6401,0.7036
+A2,2,XGBoost,0.6402,62.9 to 64.9,0.704,0.6906 to 0.7160,0.6257,0.6401,0.7041
+A3,7,Random Forest,0.6418,63.2 to 65.0,0.7049,0.6918 to 0.7165,0.6236,0.6413,0.7052
+A3,7,XGBoost,0.6412,63.1 to 65.0,0.7044,0.6910 to 0.7163,0.6274,0.6394,0.7045
+A8,17,Random Forest,0.6467,63.6 to 65.7,0.7133,0.7013 to 0.7245,0.6168,0.648,0.7137
+A8,17,XGBoost,0.6486,63.8 to 65.9,0.7148,0.7024 to 0.7263,0.619,0.6471,0.7139

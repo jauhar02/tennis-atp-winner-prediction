@@ -1,0 +1,8 @@
+,Description
+S0,Current rule (missing age/height difference = 0; missing duration = 100 min)
+S1,"S0 + missingness indicators (age, height, imputed duration in 14-day window)"
+S2,Training-derived: age/height = median of the training years; duration = running mean of earlier matches by best-of
+S3,S2 + missingness indicators
+S4,Missing duration = 60 min (age/height as S0)
+S5,Missing duration = 150 min (age/height as S0)
+S6,"Age, height and fatigue differences removed (no imputation needed)"

@@ -1,0 +1,7 @@
+,Pasangan (A - B),Selisih AUC,CI95 bawah,CI95 atas,Mencakup 0
+0,Random Forest - Baseline Elo,0.0113,0.007,0.0156,False
+1,XGBoost - Baseline Elo,0.0115,0.0069,0.0155,False
+2,SVM - Baseline Elo,0.0154,0.0107,0.0202,False
+3,SVM - Random Forest,0.0041,0.0021,0.0061,False
+4,SVM - XGBoost,0.0039,0.0021,0.0059,False
+5,Random Forest - XGBoost,-0.0002,-0.0012,0.0009,True

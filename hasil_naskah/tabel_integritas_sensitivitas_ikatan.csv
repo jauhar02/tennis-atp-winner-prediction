@@ -1,0 +1,4 @@
+Acakan,Laga uji dengan |Δ elo_diff| > 1 poin,"Rata-rata |Δ elo_diff| (uji, poin Elo)","Maks. |Δ elo_diff| (uji, poin Elo)",Laga uji dengan fitur non-Elo berubah,Status cold-start berbeda,Prediksi Random Forest berubah,Δ akurasi Random Forest (poin %),Prediksi XGBoost berubah,Δ akurasi XGBoost (poin %),Prediksi SVM berubah,Δ akurasi SVM (poin %)
+1,1480,1.108,133.17,296,35,11,-0.036,9,-0.012,19,0.012
+2,1429,1.098,135.81,272,34,20,0.024,21,-0.059,21,-0.036
+3,1417,1.044,121.9,264,34,16,0.0,19,-0.083,15,0.012

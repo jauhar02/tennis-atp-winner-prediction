@@ -1,0 +1,6 @@
+Model,Accuracy,Acc CI95 bawah,Acc CI95 atas,ROC-AUC,AUC CI95 bawah,AUC CI95 atas
+Baseline: ranking lebih baik menang,0.6357,0.6265,0.6449,,,
+Baseline: Elo lebih tinggi menang,0.6407,0.6302,0.6515,,,
+Random Forest,0.648,0.6381,0.6584,0.7136,0.7023,0.7243
+XGBoost,0.6471,0.6366,0.6571,0.6997,0.6897,0.7113
+SVM,0.6547,0.645,0.6648,0.7176,0.7054,0.7285

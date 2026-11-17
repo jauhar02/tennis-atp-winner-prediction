@@ -1,0 +1,7 @@
+Pasangan (A - B),Selisih akurasi (poin %),CI95 bawah,CI95 atas,Mencakup 0
+Random Forest - XGBoost,0.095,-0.166,0.34,True
+Random Forest - SVM,-0.663,-1.155,-0.181,False
+XGBoost - SVM,-0.758,-1.238,-0.264,False
+Random Forest - Baseline: Elo lebih tinggi menang,0.734,0.0,1.486,True
+XGBoost - Baseline: Elo lebih tinggi menang,0.639,-0.063,1.365,True
+SVM - Baseline: Elo lebih tinggi menang,1.397,0.674,2.156,False

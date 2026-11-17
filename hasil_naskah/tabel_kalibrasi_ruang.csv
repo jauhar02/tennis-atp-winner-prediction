@@ -1,0 +1,7 @@
+Model,Putaran,Ukuran ruang,ROC-AUC CV,Parameter di tepi
+Random Forest,0,120,0.7244,-
+XGBoost,0,1296,0.7253,"n_estimators, learning_rate, subsample, colsample_bytree"
+XGBoost,1,3840,0.7249,n_estimators
+XGBoost,2,4800,0.7256,max_depth
+SVM,0,30,0.7269,C
+SVM,1,35,0.7269,-

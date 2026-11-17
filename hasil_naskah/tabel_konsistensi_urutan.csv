@@ -1,0 +1,4 @@
+Model,Rata-rata |p+q-1|,Median,Persentil 95,Maks.,Rata-rata p+q-1 (bias posisi),"Laga |p+q-1| <= 0,01 (%)",Pemenang pilihan berbeda (laga),dari,(%),Akurasi posisi asli,Akurasi posisi dibalik,Akurasi simetris,AUC asli,AUC simetris,Log loss asli,Log loss simetris,Brier asli,Brier simetris
+Random Forest,0.0181,0.0151,0.045,0.1103,-0.0069,34.6,302,8447,3.58,0.648,0.6461,0.6477,0.7142,0.7145,0.616,0.6159,0.2144,0.2144
+XGBoost,0.0162,0.0137,0.0397,0.0888,-0.0074,37.3,251,8447,2.97,0.6485,0.647,0.6479,0.7138,0.7144,0.6171,0.6166,0.2148,0.2146
+SVM,0.0143,0.0125,0.035,0.0827,-0.006,40.5,170,8447,2.01,0.655,0.6555,0.6549,0.7181,0.718,0.6157,0.6158,0.2142,0.2142

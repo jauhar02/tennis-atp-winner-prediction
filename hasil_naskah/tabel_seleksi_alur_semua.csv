@@ -1,0 +1,10 @@
+alasan,Dikeluarkan,Sisa,% dari awal
+Awal,0.0,79299.0,100.0
+1. Permukaan kosong,53.0,79246.0,99.93
+2. ID pemain kosong,0.0,79246.0,99.93
+3. Peringkat salah satu pemain kosong,1847.0,77399.0,97.6
+4. Walkover atau default,423.0,76976.0,97.07
+5. Mundur di tengah laga (RET),2302.0,74674.0,94.17
+6a. Cold-start: satu pemain < 10 laga,9259.0,65415.0,82.49
+6b. Cold-start: kedua pemain < 10 laga,2219.0,63196.0,79.69
+7. Sebelum 2010 (hanya pemanasan Elo),24557.0,38639.0,48.73

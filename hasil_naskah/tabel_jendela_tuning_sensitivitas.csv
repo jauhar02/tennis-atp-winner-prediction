@@ -1,0 +1,10 @@
+Tahun uji,Model,Jendela tuning,Baris tuning,Dari,CV AUC,Waktu tuning (menit),Sama dgn Sel B,AUC uji,Akurasi uji,LogLoss uji,Parameter,Δ AUC uji vs acuan,Δ Akurasi uji vs acuan,Δ LogLoss uji vs acuan
+2023,Random Forest,6.000 terbaru,6000,2019-10-28,0.7234,4.8,False,0.7017,0.6432,0.6262,"{'clf__n_estimators': 200, 'clf__min_samples_leaf': 20, 'clf__max_features': 'sqrt', 'clf__max_depth': 4}",-0.0007,0.0033,0.0002
+2023,Random Forest,12.000 terbaru (acuan),12000,2017-05-29,0.7244,8.3,True,0.7024,0.6399,0.626,"{'clf__n_estimators': 200, 'clf__min_samples_leaf': 40, 'clf__max_features': 'sqrt', 'clf__max_depth': 6}",0.0,0.0,0.0
+2023,Random Forest,seluruh data latih,30192,2010-01-03,0.7399,19.9,False,0.7018,0.6382,0.6274,"{'clf__n_estimators': 200, 'clf__min_samples_leaf': 80, 'clf__max_features': 0.5, 'clf__max_depth': 8}",-0.0006,-0.0017,0.0014
+2023,XGBoost,6.000 terbaru,6000,2019-10-28,0.7245,1.1,False,0.7004,0.6365,0.6279,"{'clf__subsample': 0.5, 'clf__n_estimators': 800, 'clf__min_child_weight': 1, 'clf__max_depth': 2, 'clf__learning_rate': 0.005, 'clf__colsample_bytree': 0.5}",-0.0006,-0.0017,0.0001
+2023,XGBoost,12.000 terbaru (acuan),12000,2017-05-29,0.7256,1.7,True,0.701,0.6382,0.6278,"{'clf__subsample': 0.3, 'clf__n_estimators': 800, 'clf__min_child_weight': 5, 'clf__max_depth': 2, 'clf__learning_rate': 0.005, 'clf__colsample_bytree': 0.7}",0.0,0.0,0.0
+2023,XGBoost,seluruh data latih,30192,2010-01-03,0.7419,3.0,False,0.701,0.6357,0.6297,"{'clf__subsample': 0.9, 'clf__n_estimators': 1600, 'clf__min_child_weight': 1, 'clf__max_depth': 2, 'clf__learning_rate': 0.01, 'clf__colsample_bytree': 0.5}",0.0,-0.0025,0.0019
+2023,SVM,6.000 terbaru,6000,2019-10-28,0.7276,1.2,False,0.7037,0.6436,0.6293,"{'clf__gamma': 0.003, 'clf__C': 0.3}",-0.0002,-0.003,0.0002
+2023,SVM,12.000 terbaru (acuan),12000,2017-05-29,0.7269,5.2,True,0.7039,0.6466,0.6291,"{'clf__gamma': 0.003, 'clf__C': 1}",0.0,0.0,0.0
+2023,SVM,seluruh data latih,30192,2010-01-03,0.7422,31.0,False,0.7036,0.6445,0.629,"{'clf__gamma': 0.001, 'clf__C': 3.333333}",-0.0003,-0.0021,-0.0001

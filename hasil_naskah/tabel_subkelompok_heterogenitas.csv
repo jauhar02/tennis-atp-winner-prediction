@@ -1,0 +1,22 @@
+Dimension,Contrast,Wald chi2,df,p,Holm (all 21 tests)
+Season (test year),SVM - Random Forest,2.25,3,0.5218,1.0
+Season (test year),SVM - XGBoost,3.43,3,0.3306,1.0
+Season (test year),SVM - Elo baseline,3.53,3,0.3172,1.0
+Surface,SVM - Random Forest,0.12,2,0.9409,1.0
+Surface,SVM - XGBoost,0.33,2,0.8463,1.0
+Surface,SVM - Elo baseline,11.62,2,0.003,0.06
+Tournament level,SVM - Random Forest,1.86,3,0.6029,1.0
+Tournament level,SVM - XGBoost,4.1,3,0.2505,1.0
+Tournament level,SVM - Elo baseline,3.46,3,0.326,1.0
+Match format,SVM - Random Forest,0.78,1,0.3774,1.0
+Match format,SVM - XGBoost,5.11,1,0.0238,0.4284
+Match format,SVM - Elo baseline,0.05,1,0.8147,1.0
+Round,SVM - Random Forest,2.67,4,0.6138,1.0
+Round,SVM - XGBoost,5.99,4,0.1998,1.0
+Round,SVM - Elo baseline,4.87,4,0.301,1.0
+Experience (fewer prior matches of the two players),SVM - Random Forest,1.31,2,0.5201,1.0
+Experience (fewer prior matches of the two players),SVM - XGBoost,1.55,2,0.4614,1.0
+Experience (fewer prior matches of the two players),SVM - Elo baseline,0.4,2,0.8174,1.0
+Elo gap between the players (tertiles),SVM - Random Forest,3.8,2,0.1494,1.0
+Elo gap between the players (tertiles),SVM - XGBoost,9.11,2,0.0105,0.1995
+Elo gap between the players (tertiles),SVM - Elo baseline,13.96,2,0.0009,0.0189

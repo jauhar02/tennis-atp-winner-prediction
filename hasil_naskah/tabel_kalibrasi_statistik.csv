@@ -1,0 +1,4 @@
+Predictor,ROC-AUC (yearly mean),"ECE, 10 equal-width bins",ECE 95% CI,"ECE, 10 equal-count bins",Calibration slope,Slope 95% CI,Calibration intercept,Intercept 95% CI,Calibration-in-the-large,CITL 95% CI,Reliability (Murphy),Resolution (Murphy),Log loss,Log loss after in-sample linear recalibration,Calibration loss (log loss)
+Random Forest,0.7137,0.0109,0.0102 to 0.0243,0.0142,0.972,0.912 to 1.035,-0.003,-0.046 to 0.049,-0.003,-0.046 to 0.049,0.00022,0.03424,0.6166,0.6166,0.0001
+XGBoost,0.7139,0.0378,0.0215 to 0.0585,0.0406,1.134,1.021 to 1.306,-0.005,-0.047 to 0.046,-0.006,-0.047 to 0.043,0.0016,0.02867,0.6318,0.6311,0.0007
+SVM,0.7178,0.0261,0.0191 to 0.0375,0.0257,0.878,0.824 to 0.932,-0.005,-0.049 to 0.046,-0.003,-0.049 to 0.050,0.00083,0.03573,0.6157,0.6145,0.0012

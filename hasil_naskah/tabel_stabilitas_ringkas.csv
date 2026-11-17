@@ -1,0 +1,5 @@
+Tahun uji,Model,Konfigurasi di kolam,Pemenang berbeda antar-seed,dari,CV AUC pemenang seed: min,CV AUC pemenang seed: maks,CV AUC anggaran terbesar,Selisih CV AUC 1 vs 10,AUC uji seed: min,AUC uji seed: maks,AUC uji anggaran terbesar,Akurasi uji seed: min,Akurasi uji seed: maks,Akurasi uji anggaran terbesar
+2023,Random Forest,120,2,5,0.7244,0.72443,0.72443,0.00052,0.70238,0.70251,0.70238,0.63861,0.63987,0.63987
+2023,XGBoost,240,4,4,0.72532,0.72561,0.72561,0.00063,0.70086,0.70214,0.70214,0.63693,0.64196,0.63819
+2026,Random Forest,120,2,5,0.71392,0.71399,0.71399,0.00031,0.72838,0.72904,0.72838,0.66216,0.66554,0.66554
+2026,XGBoost,240,4,4,0.71494,0.71507,0.71507,0.00035,0.72764,0.72909,0.72872,0.65878,0.66554,0.66554
