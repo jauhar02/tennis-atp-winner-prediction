@@ -12,4 +12,4 @@ The derived features and code in this repository are released under the same lic
 - model_tenis/: derived features, results tables, and saved models
 
 ## Environment
-Google Colab, Python 3.13.16, scikit-learn 1.6.1, xgboost 3.4.1, shap 0.52.0, pandas 2.2.3, numpy 2.1.3, statsmodels 0.15.0. Random seed: 42.
+Google Colab, Python 3.13.18, scikit-learn 1.6.1, xgboost 3.4.1, shap 0.52.0, pandas 2.2.3, numpy 2.1.3, statsmodels 0.15.0. Random seed: 42.
