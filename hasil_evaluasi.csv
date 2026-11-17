@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1,ROC-AUC,LogLoss,Brier
+Baseline: ranking lebih baik menang,0.6357,0.632,0.6339,0.6329,0.6913,,
+Baseline: Elo lebih tinggi menang,0.6407,0.636,0.6425,0.6392,0.7025,,
+Random Forest,0.648,0.6463,0.6397,0.643,0.7136,0.6166,0.2146
+XGBoost,0.6471,0.6452,0.6392,0.6422,0.6997,0.6318,0.2211
+SVM,0.6547,0.6506,0.6545,0.6525,0.7176,0.6157,0.2142
