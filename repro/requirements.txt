@@ -1,0 +1,13 @@
+# Minimum versions; the exact versions of the reference run are written to outputs/results/reproducibility/requirements_frozen.txt by scripts/09_manifest.py
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+shap
+statsmodels
+matplotlib
+joblib
+requests
+ipython
+gradio        # only for the demonstration application
